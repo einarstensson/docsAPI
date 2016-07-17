@@ -48978,3 +48978,343 @@ Processing by Api::V1::DocumentsController#show as */*
 Completed 200 OK in 51ms (Views: 30.2ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:12:12 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.8ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (25.36ms)
+Completed 200 OK in 143ms (Views: 37.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:12:47 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (22.78ms)
+Completed 200 OK in 53ms (Views: 30.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:13:45 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.8ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.95ms)
+Completed 200 OK in 49ms (Views: 29.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:14:35 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.81ms)
+Completed 200 OK in 45ms (Views: 25.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:15:16 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.8ms)
+Completed 200 OK in 50ms (Views: 26.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:16:32 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (18.86ms)
+Completed 200 OK in 51ms (Views: 31.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:16:33 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (18.65ms)
+Completed 200 OK in 51ms (Views: 31.2ms | ActiveRecord: 0.7ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:17:08 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important."}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (1.0ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (3.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "documents" SET "title" = $1, "content" = $2, "updated_at" = $3 WHERE "documents"."id" = $4[0m  [["title", "How to live long and propser"], ["content", "Be like Spock. 42 is also important."], ["updated_at", 2016-07-17 16:17:08 UTC], ["id", 1]]
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (15.88ms)
+Completed 200 OK in 116ms (Views: 24.8ms | ActiveRecord: 8.9ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:17:10 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important. Ok?"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.9ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok?"], ["updated_at", 2016-07-17 16:17:10 UTC], ["id", 1]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.54ms)
+Completed 200 OK in 103ms (Views: 24.2ms | ActiveRecord: 5.1ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:17:10 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important. Ok? Yes"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes"], ["updated_at", 2016-07-17 16:17:10 UTC], ["id", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (14.89ms)
+Completed 200 OK in 111ms (Views: 24.5ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:17:13 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.8ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (18.77ms)
+Completed 200 OK in 51ms (Views: 27.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:17:14 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.9ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (19.83ms)
+Completed 200 OK in 53ms (Views: 32.9ms | ActiveRecord: 0.9ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:18:07 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"", "content"=>"Be like Spock. 42 is also important. Ok? Yes pl"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:20:00 -0400
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:20:00 -0400
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:20:00 -0400
+Completed 500 Internal Server Error in 112576ms (ActiveRecord: 0.7ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"", "content"=>"Be like Spock. 42 is also important. Ok? Yes please wor"}}, "id"=>"1", "document"=>{"data"=>{"attributes"=>{"title"=>"", "content"=>"Be like Spock. 42 is also important. Ok? Yes please wor"}}}}
+Unpermitted parameters: data, document
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:20:13 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:20:13 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"", "content"=>"Be like Spock. 42 is also important. Ok? Yes please"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (27.0ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDocument Load (83.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDocument Load (67884.0ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDocument Load (64302.9ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDocument Load (67912.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 69911ms (ActiveRecord: 174.3ms)
+
+
+Completed 500 Internal Server Error in 70083ms (ActiveRecord: 68041.9ms)
+
+
+  
+  
+SystemExit (exit):
+SystemExit (exit):
+  
+  
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (28.75ms)
+Completed 200 OK in 73130ms (Views: 3031.6ms | ActiveRecord: 68102.9ms)
+
+
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.69ms)
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (19.53ms)
+Completed 200 OK in 73081ms (Views: 5079.5ms | ActiveRecord: 121.3ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:21:26 -0400
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:21:26 -0400
+Completed 200 OK in 73136ms (Views: 3130.0ms | ActiveRecord: 68011.0ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:21:27 -0400
+Processing by Api::V1::DocumentsController#update as */*
+Processing by Api::V1::DocumentsController#update as */*
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"aaassdd", "content"=>"asf"}}, "id"=>"1", "document"=>{}}
+  Parameters: {"data"=>{"attributes"=>{"title"=>"aaassdd", "content"=>"asfasss"}}, "id"=>"1", "document"=>{}}
+  Parameters: {"id"=>"1"}
+Unpermitted parameters: data, document
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (13.4ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (16.27ms)
+Completed 200 OK in 56ms (Views: 26.2ms | ActiveRecord: 13.4ms)
+
+
+  [1m[36mDocument Load (50.4ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDocument Load (51.2ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 6165ms (ActiveRecord: 50.4ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+Completed 500 Internal Server Error in 6479ms (ActiveRecord: 51.2ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:22:09 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"aaaaaaa", "content"=>"Be like Spock. 42 is also important. Ok? Yes hm"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 13234ms (ActiveRecord: 0.7ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/api/v1/documents_controller.rb:7:in `update'
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:22:26 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (19.24ms)
+Completed 200 OK in 46ms (Views: 26.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:23:19 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (8.1ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.5ms)
+Completed 200 OK in 57ms (Views: 24.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:58:46 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (21.85ms)
+Completed 200 OK in 255ms (Views: 51.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:34 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (1.1ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (29.4ms)
+Completed 200 OK in 148ms (Views: 45.1ms | ActiveRecord: 1.1ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:37 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Y"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.6ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes. Y"], ["updated_at", 2016-07-17 16:59:37 UTC], ["id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (17.26ms)
+Completed 200 OK in 108ms (Views: 30.1ms | ActiveRecord: 5.3ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:39 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Yay! "}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.6ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes. Yay! "], ["updated_at", 2016-07-17 16:59:39 UTC], ["id", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (14.9ms)
+Completed 200 OK in 107ms (Views: 22.1ms | ActiveRecord: 5.1ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:39 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and propser", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Yay! It w"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.8ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes. Yay! It w"], ["updated_at", 2016-07-17 16:59:39 UTC], ["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (14.83ms)
+Completed 200 OK in 104ms (Views: 24.5ms | ActiveRecord: 5.0ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:47 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and prosper!", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Yay! It works"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.6ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "documents" SET "title" = $1, "content" = $2, "updated_at" = $3 WHERE "documents"."id" = $4[0m  [["title", "How to live long and prosper!"], ["content", "Be like Spock. 42 is also important. Ok? Yes. Yay! It works"], ["updated_at", 2016-07-17 16:59:48 UTC], ["id", 1]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (15.16ms)
+Completed 200 OK in 105ms (Views: 24.9ms | ActiveRecord: 3.7ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:48 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and prosper!", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Yay! It works. ki"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (0.6ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes. Yay! It works. ki"], ["updated_at", 2016-07-17 16:59:48 UTC], ["id", 1]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (14.92ms)
+Completed 200 OK in 107ms (Views: 21.1ms | ActiveRecord: 7.7ms)
+
+
+Started PUT "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:49 -0400
+Processing by Api::V1::DocumentsController#update as */*
+  Parameters: {"data"=>{"attributes"=>{"title"=>"How to live long and prosper!", "content"=>"Be like Spock. 42 is also important. Ok? Yes. Yay! It works. kind o"}}, "id"=>"1", "document"=>{}}
+Unpermitted parameters: data, document
+  [1m[36mDocument Load (1.0ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "documents" SET "content" = $1, "updated_at" = $2 WHERE "documents"."id" = $3[0m  [["content", "Be like Spock. 42 is also important. Ok? Yes. Yay! It works. kind o"], ["updated_at", 2016-07-17 16:59:49 UTC], ["id", 1]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (19.47ms)
+Completed 200 OK in 115ms (Views: 31.5ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 12:59:51 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (1.2ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (18.38ms)
+Completed 200 OK in 47ms (Views: 26.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 13:17:33 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.7ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (24.92ms)
+Completed 200 OK in 193ms (Views: 47.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/documents/1" for ::1 at 2016-07-17 13:17:50 -0400
+Processing by Api::V1::DocumentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mDocument Load (0.9ms)[0m  [1m[34mSELECT  "documents".* FROM "documents" WHERE "documents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers] Rendered DocumentSerializer with ActiveModelSerializers::Adapter::JsonApi (20.87ms)
+Completed 200 OK in 55ms (Views: 27.7ms | ActiveRecord: 0.9ms)
+
+

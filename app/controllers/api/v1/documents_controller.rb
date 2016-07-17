@@ -3,7 +3,6 @@ module Api
     class DocumentsController < ApplicationController
       def update
         document = Document.find(document_id_params['id'])
-
         title = document_params['title']
         content = document_params['content']
         document.update(title: title, content: content)
